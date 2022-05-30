@@ -1,6 +1,7 @@
 import './App.css';
 import Frase from './components/Frase';
 import HelloWorld from './components/HelloWorld';
+import List from './components/List';
 import People from './components/People';
 import SayMyName from './components/SayMyName';
 
@@ -18,6 +19,7 @@ function App() {
         idade="41"
         profissao="Dev full-stack"
       />
+      <List />
     </div>
   );
 }
