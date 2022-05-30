@@ -1,4 +1,6 @@
 import './App.css';
+import Frase from './components/Frase';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
       <p>Olá, { newName }</p>
       <p>Soma de 2 + 2 = { sum(2,2) }</p>
       <img src={ url } alt="Imagem de teste"/>
+      <HelloWorld />
+      <Frase />
     </div>
   );
 }
