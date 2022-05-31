@@ -1,12 +1,15 @@
 import './App.css';
-import Condicional from './components/Condicional';
+import OtherList from './components/OtherList';
 
 function App() {
+
+  const myItems = ['React', 'Vue', 'Angular'];
   
   return (
     <div className="App">
       <h1>Renderizando condicional</h1>
-      <Condicional />
+      <OtherList items={myItems}/>
+      <OtherList items={[]}/>
     </div>
   );
 }
