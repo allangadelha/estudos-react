@@ -12,7 +12,7 @@ function Form() {
 
     return(
         <div>
-            <h1>Formuláriod e cadastro:</h1>
+            <h1>Formulário de cadastro:</h1>
             <form onSubmit={handleCreate}>
                 <div>
                     <label htmlFor="name">Nome:</label>
