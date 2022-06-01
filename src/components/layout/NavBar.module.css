@@ -6,3 +6,20 @@
 .item {
     margin-right: 1em;
 }
+
+.social_list {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social_list li {
+    margin: 0 1em;
+}
+
+.social_list svg {
+    color: blueviolet;
+    cursor: pointer;
+    font-size: 2em;
+}
