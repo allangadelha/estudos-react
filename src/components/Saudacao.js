@@ -8,7 +8,13 @@ function Saudacao({ nome }) {
 
     return (
         <>
-            {nome ? (<p>{gerarSaudacao(nome)}</p>) : (<p>Aguardando nome ser digitado na caixinha acima</p>)}
+            {
+                nome ? (
+                    <p>{gerarSaudacao(nome)}</p>
+                ) : (
+                    <p>Aguardando nome ser digitado na caixinha acima</p>
+                )
+            }
         </>
     )
 
