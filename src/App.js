@@ -1,15 +1,17 @@
 import './App.css';
-import OtherList from './components/OtherList';
+import { useState } from 'react';
+import MyName from './components/MyName';
+import Saudacao from './components/Saudacao';
 
 function App() {
 
-  const myItems = ['React', 'Vue', 'Angular'];
-  
+  const [nome, setNome] = useState();
+
   return (
     <div className="App">
-      <h1>Renderizando condicional</h1>
-      <OtherList items={myItems}/>
-      <OtherList items={[]}/>
+      <h1>State lift</h1>
+      <MyName setNome={setNome} />
+      <Saudacao nome={nome}/>
     </div>
   );
 }
